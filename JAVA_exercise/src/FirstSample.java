@@ -38,5 +38,14 @@ public class FirstSample {
 		System.out.println(s.equals(t));							//Wynik: false
 		System.out.println("Czekaj".equals(greeting));				//Wynik: true
 		System.out.println("Czekaj".equalsIgnoreCase(greeting));	//Wynik: true
+		
+		//Dlugosc lancucha
+		System.out.println(greeting.length());						//Wynik: 6
+		
+		//Rzeczywista liczba wspolrzednych kodowych znakow
+		System.out.println(greeting.codePointCount(0, greeting.length()));	//Wynik: 6
+		
+		//Zwrocenie jednostki kodowej z podanej pozycji
+		System.out.println(greeting.charAt(0));	 					//Wynik: "C"
 	}
 }
