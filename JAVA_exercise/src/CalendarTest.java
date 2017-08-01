@@ -12,7 +12,7 @@ public class CalendarTest {
 		Locale.setDefault(Locale.ENGLISH);
 		//Konstrukcja i ustawienie obiektu d oraz jego inicjacja aktualna data
 		GregorianCalendar d = new GregorianCalendar();
-		
+
 		int today = d.get(Calendar.DAY_OF_MONTH);
 		int month = d.get(Calendar.MONTH);		
 		//System.out.println(today + " " + month);	//wyswieltnie aktualnego dnia oraz miesiaca
