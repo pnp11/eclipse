@@ -22,6 +22,6 @@ public class ManagerTest {
 	
 		//Wyswietlenie informacji o wszystkich obiektach klasy Employee
 		for(Employee e : staff)
-			System.out.println("name = " + e.getName() + ", salry = " + e.getSalary());
+			System.out.println("name = " + e.getName() + ", salary = " + e.getSalary());
 	}
 }
